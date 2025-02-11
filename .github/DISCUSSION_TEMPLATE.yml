@@ -1,0 +1,44 @@
+body:
+  - type: markdown
+    attributes:
+      value: "## 📅 [n일차] 키워드 및 질문"
+
+  - type: markdown
+    attributes:
+      value: "### 📖 [모던 자바스크립트 Deep Dive]"
+
+  - type: input
+    id: chapter_5_title
+    attributes:
+      label: "5장 제목"
+      description: "해당 장의 제목을 입력해주세요."
+      placeholder: "예: 실행 컨텍스트"
+
+  - type: textarea
+    id: chapter_5_toc
+    attributes:
+      label: "목차"
+      description: "해당 장의 목차를 입력해주세요."
+      placeholder: "- 섹션 1: 실행 컨텍스트의 개념\n- 섹션 2: 실행 컨텍스트 생성 과정"
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "### 📘 [우아한 타입스크립트 with 리액트]"
+
+  - type: input
+    id: chapter_2_title
+    attributes:
+      label: "2장 제목"
+      description: "해당 장의 제목을 입력해주세요."
+      placeholder: "예: 타입 시스템의 기초"
+
+  - type: textarea
+    id: chapter_2_toc
+    attributes:
+      label: "목차"
+      description: "해당 장의 목차를 입력해주세요."
+      placeholder: "- 섹션 1: 기본 타입\n- 섹션 2: 유니언 타입"
+    validations:
+      required: true
